@@ -11,12 +11,9 @@ void Delay1ms(unsigned int ms)	//@11.0592MHz
 		{
 				while (--j);
 		} while (--i);
-
 		ms--;
 	}
-
 }
-
 
 void main()
 {
